@@ -11,8 +11,6 @@ $remoteHost = "10.1.1.17"
 # XML Toast Template.
 # The toast template catalog:
 # https://learn.microsoft.com/en-us/previous-versions/windows/apps/hh761494(v=win.10)
-
-
 $xml = @"
 <toast scenario="alarm">
   
