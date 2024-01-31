@@ -10,7 +10,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned CurrentUser
 ```
 
 ## Usage
-Simply substitute the value of the variable `$remoteHost` to your IP or domain name, and it is ready to run.
+Simply substitute the value of the variable `$remoteHost` with your IP or domain name, and it is ready to run.
 
 
 ## About
