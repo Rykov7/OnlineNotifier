@@ -1,5 +1,5 @@
 # OnlineNotifier
-Simple toast notification tool for Windows that informs you when a certain remote host becomes online.
+A toast notification PowerShell script that informs you when a certain remote host becomes online.
 
 ## Requirements
 Windows 10/11 and ability to run PowerShell scripts.
@@ -10,7 +10,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned CurrentUser
 ```
 
 ## Usage
-Simply substitute the value of the variable `$remoteHost` with your IP or domain name, and it is ready to run.
+1. Substitute the value of the variable `$remoteHost` with an IP or domain name of a down remote host you want to trace.
+2. Run the `OnlineNotifier.ps1` file with double-click. It will keep attempting to connect to the host until it succeeds.
+3. When the host becomes online, you will see a native Windows toast notification with the default alarm sound.
+4. Click the 'Confirm' button to close the notification.
 
 
 ## About
