@@ -1,4 +1,5 @@
 ### github.com/Rykov7 (2024)
+# Simple toast notification tool that notify you when certain remote host is online.
 
 
 # Setup.
